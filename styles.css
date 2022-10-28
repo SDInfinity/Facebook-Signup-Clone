@@ -1,0 +1,180 @@
+html,body
+{
+    height: 100%;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(244, 243, 243);
+}
+
+.all
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+/*right-section*/
+
+.right
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+a
+{
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #1877f2;
+    text-decoration: none;
+    cursor: pointer;
+    transition: text-decoration 0.15s;
+    font-weight: 548;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    
+}
+
+input
+{
+    display: block;
+    width: 350px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    color: #dadde1;
+    
+}
+
+input:focus
+{
+    outline-color:  rgba(57, 126, 255, 0.5);
+    box-shadow: 0 0.1px 5px rgba(47, 47, 47, 0.1), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+button
+{
+    display: block;
+    transition: background-color 0.15s;
+}
+
+strong:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.credentials
+{
+    display: inline-block;
+    padding: 22px 10px 15px 12px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.email
+{
+    margin-bottom: 15px;
+    margin-top: 2px;
+}
+
+.password
+{
+    margin-bottom: 18px;
+}
+.log-in
+{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color:#1877f2;
+    border-style: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.log-in:hover
+{
+    background-color: #1965c9;
+}
+
+.margin
+{
+    border-bottom: 1px solid #dadde1;
+    margin-bottom: 28px;
+    margin-top: 15px;
+}
+
+.create
+{
+    background-color: #42b72a;
+    color: white;
+    border-radius: 5px;
+    width: 60%;
+    border-style:none;
+    padding: 15px 10px;
+    margin:auto;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.create:hover
+{
+    background-color: #359921;
+}
+
+.additional-info
+
+{
+    width: 300px;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 55px;
+}
+
+/*left-section*/
+
+.left
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 55px;
+    margin-bottom: 160px;
+}
+
+
+
+.logo
+{
+    width: 300px;
+    margin-bottom: -17px;
+
+}
+
+.tagline
+{
+    font-size: 30px;
+    width: 557px;
+    padding-left: 32px;
+    margin-top: 0;
+}
+
